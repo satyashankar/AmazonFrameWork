@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="amazon Regression Test(failed)">
+    <classes>
+      <class name="com.Amazon.qa.Test.LoginPageTest">
+        <methods>
+          <include name="loginPageLogo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Amazon.qa.Test.LoginPageTest -->
+      <class name="com.Amazon.qa.Test.homePageTest">
+        <methods>
+          <include name="cartPageTest"/>
+          <include name="homePageTitileTest"/>
+          <include name="tearDown"/>
+          <include name="oderPagetTest"/>
+          <include name="verifyLableTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Amazon.qa.Test.homePageTest -->
+    </classes>
+  </test> <!-- amazon Regression Test(failed) -->
+</suite> <!-- Failed suite [Amazon Automation test] -->
